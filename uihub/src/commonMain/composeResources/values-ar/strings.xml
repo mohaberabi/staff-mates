@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_language">لغة التطبيق</string>
+    <string name="settings">الإعدادات</string>
+    <string name="change_language">غيّر اللغة</string>
+    <string name="change_date">غيّر التاريخ</string>
+    <string name="sync_data">مزامنة البيانات</string>
+    <string name="save_settings">احفظ الإعدادات</string>
+    <string name="branch">الفرع</string>
+    <string name="chain">السلسلة</string>
+    <string name="records_will_be_synced_for_the">هيتم مزامنة السجلات لشهر</string>
+    <string name="confirm">تأكيد</string>
+    <string name="the_current_business_day">يوم العمل الحالي</string>
+    <string name="read_nfc">اقرأ الكارت</string>
+    <string name="error">خطأ</string>
+    <string name="attendance">الحضور والانصراف</string>
+    <string name="checkin_time">وقت الحضور</string>
+    <string name="checkout_time">وقت الانصراف</string>
+    <string name="total_worked_hours">إجمالي عدد ساعات العمل</string>
+    <string name="start_day">ابدأ اليوم</string>
+    <string name="end_working_day">إنهاء يوم العمل</string>
+    <string name="staff_not_allowed_for_this_branch">الموظف مش مسموح له يشتغل في الفرع ده</string>
+    <string name="please_use_the_card_at_your_branch">من فضلك استخدم الكارت في فرعك</string>
+    <string name="user_valid_card">من فضلك استخدم كارت Erabigroup صالح</string>
+    <string name="confirm_staff">تأكيد بيانات الموظف</string>
+    <string name="back">رجوع</string>
+    <string name="branch_staff">موظفي الفرع</string>
+    <string name="setup">إعدادات</string>
+    <string name="read_card">اقرأ الكارت</string>
+    <string name="write_card">اكتب على الكارت</string>
+    <string name="reading_the_card_error">حصل خطأ أثناء قراءة الكارت</string>
+    <string name="saving_data_to_the_card_error">حصل خطأ أثناء حفظ البيانات على الكارت</string>
+    <string name="staff_data_was_saved">تم حفظ بيانات الموظف</string>
+    <string name="add_staff_card">أضف كارت موظف</string>
+    <string name="payroll_staff">رواتب الموظفين</string>
+    <string name="payroll">الرواتب</string>
+    <string name="deductions">الخصومات</string>
+    <string name="borrowings">السُلف</string>
+    <string name="setup_kiosk">إعداد الكشك</string>
+
+
+    <string name="choose_mode">اختار وضع التشغيل</string>
+    <string name="record_date">تاريخ التسجيل</string>
+    <string name="sync_from_server">اسحب البيانات من السيرفر</string>
+    <string name="unsync_logs">اللوجات اللي ما اترفعتش</string>
+    <string name="unsync_deduct">الخصومات اللي ما اترفعتش</string>
+    <string name="unsync_borrow">السلف اللي ما اترفعتش</string>
+    <string name="sync_to_server">ارفع البيانات على السيرفر</string>
+    <string name="business_day">اليوم الشغّال</string>
+    <string name="something_went_wrong">فيه حاجة غلط حصلت</string>
+    <string name="please_place_card_near_device">حط الكارت قريب من الجهاز</string>
+    <string name="use_valid_erabigroup_card">استخدم كارت أو ID شغّال من ErabiGroup</string>
+    <string name="please_auth">من فضلك اعمل تأكيد هوية</string>
+    <string name="enter_secret_key">اكتب المفتاح السري</string>
+    <string name="add_deduct">خصم من الموظف</string>
+    <string name="app_name">عريبي جروب - زميل الموظف</string>
+    <string name="select_amount">اختار المبلغ</string>
+    <string name="amount_based_on_salary">المبلغ على حسب المرتب</string>
+    <string name="reason">السبب</string>
+    <string name="search_staff">دوّر على موظف</string>
+    <string name="deduct_for">خصم لـ %s</string>
+    <string name="deduct_amount">مبلغ الخصم</string>
+    <string name="deduct_time">وقت الخصم</string>
+    <string name="staff">الموظفين</string>
+    <string name="manual_attendance">تسجيل حضور يدوي</string>
+    <string name="staff_id">ID الموظف أو رقم التليفون</string>
+    <string name="place_nfc_when_ready">لما تكون جاهز حط كارت الـ NFC على الموبايل، البيانات هتتحفظ أوتوماتيك</string>
+    <string name="no_staff_for_branch">مفيش موظفين للفرع اللي متسجل</string>
+
+
+    <string name="deduct_reason_arrive_late">تأخير عن ميعاد الشغل</string>
+    <string name="deduct_reason_absent">غياب بدون إذن</string>
+    <string name="deduct_reason_leave_early">انصراف بدري</string>
+    <string name="deduct_reason_break_rules">مخالفة القوانين</string>
+    <string name="deduct_reason_bad_performance">أداء ضعيف</string>
+    <string name="deduct_reason_bad_behaviour">اسلوب غير لائق</string>
+    <string name="deduct_reason_bad_carelessness">اهمال</string>
+    <string name="deduct_reason_damage">إتلاف ممتلكات</string>
+    <string name="deduct_reason_other">سبب آخر</string>
+
+    <string name="borrow_reason_emergency">ظروف طارئة</string>
+    <string name="borrow_reason_family">مصروف عائلي</string>
+    <string name="borrow_reason_health">علاج أو مصاريف صحية</string>
+    <string name="borrow_reason_travel">سفر</string>
+    <string name="borrow_reason_transport">مواصلات</string>
+    <string name="borrow_reason_education">تعليم أو كورسات</string>
+    <string name="borrow_reason_other">سبب آخر</string>
+    <string name="deduct_reason_personal_hygiene">عدم الاهتمام بالنظافة الشخصية</string>
+
+    <string name="add_borrow">طلب سلفه </string>
+    <string name="select_reason">اختار السبب</string>
+    <string name="base_salary">الراتب الأساسي</string>
+    <string name="hrs_per_shift">ساعات/الوردية</string>
+    <string name="off_days">أيام الإجازة</string>
+    <string name="work_hrs">ساعات العمل</string>
+    <string name="net_hr">صافي الساعات</string>
+    <string name="earn_per_hr">الأجر/ساعة</string>
+    <string name="growth_earn">الأرباح الإجمالية</string>
+    <string name="net_earn">صافي الأرباح</string>
+    <string name="amount">القيمه</string>
+    <string name="ready_to_start_day">جاهز تبدأ اليوم ..؟</string>
+    <string name="ready_to_end_day">جاهز تنهي اليوم ..؟</string>
+    <string name="already_done_day">انت خلصت شغل النهارده , خلاص </string>
+
+
+    <string name="no_logs_for_date">مافيش تسجيلات في التاريخ ده</string>
+    <string name="no_logs_for_date_subttl">غير التاريخ او استني موظفينك الجامدين يبدأوا شغل</string>
+    <string name="shift_logs">تاريخ الحضور</string>
+    <string name="account_info">معلومات الحساب</string>
+    <string name="Subscription_info">معلومات الأشتراك</string>
+    <string name="business_settings">اعدادات العمل</string>
+    <string name="start_day_hr">بدايه يوم العمل</string>
+    <string name="end_day_hr">نهايه يوم العمل</string>
+    <string name="work_hours_explain">بدايه و نهايه يوم العمل هو ساعات بدايه العمل و انهائه , بيتم تنظيمها من الفرع الرئيسي</string>
+    <string name="what_to_do"> محتاج تعمل ايه ... ؟</string>
+    <string name="subscription_plan">خطة الأشتراك</string>
+    <string name="terms_condition">الشروط و الأحكام</string>
+    <string name="priv_policy">سياسة الخصوصية</string>
+    <string name="pro_plan_title">Staffmate Pro</string>
+    <string name="manage_plan">خطه الأشتراك</string>
+    <string name="no_active_plan">مافيش اشتراك حاليا</string>
+    <string name="no_active_plan_subttl">اشترك دلوقتي عشان تتمتع بكل خواص الابليكيشن</string>
+    <string name="choose_plan">اختار الخطة</string>
+    <string name="read_before">اقرأ قبل الأشتراك</string>
+    <string name="restore_purchase">اعاده تفعيل الأشتراك</string>
+
+    <string name="paywall_title_attendance">الحضور الذكي</string>
+    <string name="paywall_subtitle_attendance">تتبع وإدارة حضور الموظفين بسهولة.</string>
+
+    <string name="paywall_title_payroll">أتمتة الرواتب</string>
+    <string name="paywall_subtitle_payroll">احسب الرواتب، الخصومات، وساعات العمل الإضافية فورًا.</string>
+
+    <string name="paywall_title_borrowing">السلف والقروض</string>
+    <string name="paywall_subtitle_borrowing">إدارة قروض الموظفين والسداد بسهولة.</string>
+
+    <string name="paywall_title_franchise">إدارة الفروع</string>
+    <string name="paywall_subtitle_franchise">أدوات مخصصة حصريًا لشركاء مجموعة عريبي.</string>
+
+    <string name="paywall_title_nfc">وصول آمن عبر NFC</string>
+    <string name="paywall_subtitle_nfc">تعيين والتحكم في بطاقات الموظفين لكل فرع.</string>
+    <string name="paywall_own_forever">خلي StaffMate بتاعك على طول</string>
+    <string name="paywall_invest_once">ادفع مرة واحدة، أقل من مرتب موظف عندك — وشغلك يبقى أذكى للأبد.</string>
+    <string name="paywall_view_plans">شوف كل الباقات</string>
+    <string name="error_getting_purchase">حاولنا نلاقي بيانات الآشتراك بس حصل مشكله </string>
+
+
+    <string name="error_invalid_otp">الكود مش صح</string>
+    <string name="error_no_network">مفيش نت</string>
+    <string name="error_unknown">حصل خطأ مش معروف</string>
+    <string name="error_email_in_use">الإيميل ده مستخدم قبل كده</string>
+    <string name="error_wrong_pass">الباسورد غلط</string>
+    <string name="error_wrong_promo">كود الخصم غلط</string>
+    <string name="error_too_many_req">محاولات كتير، جرّب تاني</string>
+    <string name="error_invalid_email">الإيميل مش صحيح</string>
+    <string name="error_weak_password">الباسورد ضعيف</string>
+    <string name="error_email_required">الإيميل مطلوب</string>
+    <string name="error_canceled">اتلغت العملية</string>
+    <string name="error_timeout">الطلب اتأخر</string>
+    <string name="error_invalid_args">بيانات مش صحيحة</string>
+    <string name="error_permission_denied">ممنوع الدخول</string>
+    <string name="error_unavailable">الخدمة مش شغالة دلوقتي</string>
+    <string name="error_not_found">مش لاقي النتيجة</string>
+    <string name="error_invalid_promo">كود الخصم مش صالح</string>
+    <string name="error_bad_certificate">شهادة مش صالحة</string>
+    <string name="error_bad_response">رد السيرفر مش مظبوط</string>
+    <string name="error_bad_request">طلب مش صحيح</string>
+    <string name="error_wallet_not_exist">المحفظة مش موجودة</string>
+    <string name="error_unauthorized">مش مسموح</string>
+    <string name="error_forbidden">ممنوع</string>
+    <string name="error_conflict">في تعارض</string>
+    <string name="error_internal_server">خطأ في السيرفر</string>
+    <string name="error_no_chain">السلسلة مش موجودة</string>
+    <string name="error_no_branch_chain">مفيش فرع للسلسلة دي</string>
+    <string name="email_address">البريد الإلكتروني</string>
+    <string name="device_mode">وضع الجهاز</string>
+    <string name="please_select_app_mode">من فضلك اختار وضع التطبيق</string>
+    <string name="admin_mode_title">وضع الإدارة</string>
+    <string name="admin_mode_subtitle">جهز الجهاز ده يشتغل كجهاز إدارة، تقدر تدير الموظفين، السلف، الخصومات، الحضور والانصراف، المرتبات، وكمان إعداد جهاز الكيـوسك وكروت الـ NFC</string>
+    <string name="kiosk_mode_title">وضع الكيـوسك</string>
+    <string name="kiosk_mode_subtitle">جهز الجهاز ده يشتغل كجهاز كيـوسك داخل الفرع لتسجيل حضور الموظفين باستخدام كارت الـ NFC بتاعهم</string>
+    <string name="only_per_month_ar">بس %1$s في الشهر</string>
+</resources>
