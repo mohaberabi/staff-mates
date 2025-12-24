@@ -1,5 +1,7 @@
 ## StaffMate
 
+![StaffMate App Screenshot](https://github.com/mohaberabi/staff-mates/blob/main/screen.jpg?raw=true)
+
 **StaffMate** is a **Kotlin Multiplatform (KMP)** staff management and attendance tracking
 application designed for **restaurants, cafés, and multi-branch businesses**, with strong support
 for **NFC workflows**, **offline-first operation**, and **accurate payroll calculations** across
