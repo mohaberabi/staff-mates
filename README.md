@@ -1,38 +1,106 @@
 ## StaffMate
 
-Kotlin Multiplatform Staff management & Attendance Tracking With NFC App
+**StaffMate** is a **Kotlin Multiplatform (KMP)** staff management and attendance tracking
+application designed for **restaurants, cafés, and multi-branch businesses**, with strong support
+for **NFC workflows**, **offline-first operation**, and **accurate payroll calculations** across
+Android and iOS.
 
-## What it does
+---
 
-NFC clock-in/clock-out for employees (works on both Android & iOS).
-NFC reading and writing staff info  (works on both Android & iOS).
-Manaing the working hours and business days and support overnight shifts
-(eg : after 12 :00 am to accurate total worked hours calculations )
-Borrowings & deductions management (salary advances, lateness, hygiene issues, etc.).
-Extras/allowances tracking (overtime, transportation, bonuses).
-Automated payroll generation with PDF/Excel export.
-Role-based access for managers and staff.
-Offline-first sync so it works even without internet.
-Multi-branch and even restaurant chains support for larger operations.
-History based solution for past years , moths ,days
+## What StaffMate Does
+
+- **NFC-based clock-in / clock-out**
+    - Works on both **Android & iOS**
+    - Secure staff identification via NFC cards/tags
+
+- **NFC staff data management**
+    - Read and write staff information using NFC
+    - Unified behavior across platforms
+
+- **Accurate working hours tracking**
+    - Supports business days, custom shifts, and **overnight shifts**
+    - Correct hour calculation across midnight boundaries (e.g. after 12:00 AM)
+
+- **Borrowings & deductions**
+    - Salary advances
+    - Lateness penalties
+    - Hygiene or policy violations
+
+- **Extras & allowances**
+    - Overtime
+    - Transportation
+    - Bonuses and incentives
+
+- **Automated payroll generation**
+    - Accurate payroll calculation
+    - Export to **PDF** and **Excel**
+
+- **Role-based access control**
+    - Managers vs staff permissions
+
+- **Offline-first architecture**
+    - Fully functional without internet
+    - Sync when connectivity is available
+
+- **Multi-branch & chain support**
+    - Designed for single restaurants up to full restaurant chains
+
+- **Historical records**
+    - Access staff data by **year, month, or day**
+    - Long-term history-based reporting
+
+---
 
 ## Technologies Used
 
-Framework: Kotlin Multiplatform + Compose Multiplatform for shared UI and logic.
-Reactive & Async Programming : Kotlinx Coroutines
-Date & Time Manipulations : KotlinX DateTime
-Data Parsing & Serialization : KotlinX Serialization
-Efiecient Full Text Search Using Kmp Room FTS4
-Storage: KMP Room for local database, KMP DataStore for lightweight preferences.
-State management: KMP ViewModel for shared state across platforms.
-NFC integration: Reading & writing on both Android and iOS.
-PDF generation: Canvas drawing & PDF export for payroll reports (works on both platforms).
-Networking & sync: We Decided to go production for the first version using Firebase , i build my own
-firebase auth , firebasae firestore, firebase storage shared business logic using each platform (
-ios - android ) specific implementation) but i decided to make use of our library in the next
-versions and i used a released open source library for kmp firebase as for now as it was already
-tested , but my solution iam still testing it for now
-Dependency Injection:  Koin Multiplatform + Koin Compose Multiplatform  
-UI/UX: Simple Minimal Designed for simplicity with multi language support (Arabic & English) +
-Material3 Compose Multiplatform Navigation , Coil Compose multiplatform Image Networking Library
-Loader 
+- **Kotlin Multiplatform (KMP)**
+- **Compose Multiplatform** for shared UI and business logic
+
+### Concurrency & Reactivity
+
+- **Kotlinx Coroutines**
+- **Flow-based reactive state**
+
+### Date & Time
+
+- **Kotlinx DateTime**
+- Accurate cross-platform time calculations (including overnight shifts)
+
+### Data & Persistence
+
+- **Room (KMP)** for local database
+- **Room FTS4** for efficient full-text search
+- **KMP DataStore** for lightweight preferences
+
+### Serialization & Parsing
+
+- **Kotlinx Serialization**
+
+### State Management
+
+- **KMP ViewModel**
+- Shared state across Android & iOS
+
+### NFC
+
+- Cross-platform **NFC read/write**
+- Platform-specific implementations behind shared interfaces
+
+### Payroll & Documents
+
+- **Canvas drawing**
+- **PDF generation** for payroll reports (Android & iOS)
+
+### Networking & Sync
+
+- **Firebase**
+    - Firebase Authentication
+    - Firebase Firestore
+    - Firebase Storage
+
+### Dependency Injection
+
+- **Koin Multiplatform**
+- **Koin Compose Multiplatform**
+
+
